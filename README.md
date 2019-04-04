@@ -1,3 +1,4 @@
+## Clone or download the project
 ## Test 1:
 Simply drag and drop the index.html file onto any web browser.
 
