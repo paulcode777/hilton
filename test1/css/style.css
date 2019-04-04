@@ -1,0 +1,175 @@
+html {
+    font-size-adjust: 0.58;
+}
+
+body {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    font-family: Arial;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    border-bottom: 1px solid gray;
+    height: 10vh;
+}
+.title {
+    font-size: 30px;
+}
+.btn-back, .hotel-logo {
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.hotel-logo img{
+    width: 100px;
+}
+.btn-back button{
+    background: #6b6b6b;
+    background: linear-gradient(#585858, #000000);
+    border: 1px solid #666666;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+.btn-back button:active{
+    background: #303030;
+}
+
+.hotel-details {
+    text-align: center
+}
+
+.container {
+    padding-top: 20vh;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.hotel-photo {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.hotel-photo img {
+    border: 5px solid white;
+    box-shadow: 2px 2px 20px;
+    width: 70%;
+    height: auto;
+}
+
+.hotel-contact {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.hotel-contact b {
+    color: white;
+}
+
+.hotel-contact span {
+    color: rgb(167, 178, 243);
+}
+
+.hotel-name {
+    font-size: 1.5em;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e5e9ed), color-stop(1, #c4d0dc));
+    background: -moz-linear-gradient(top, #e5e9ed 5%, #c4d0dc 100%);
+    background: -webkit-linear-gradient(top, #e5e9ed 5%, #c4d0dc 100%);
+    background: -o-linear-gradient(top, #e5e9ed 5%, #c4d0dc 100%);
+    background: -ms-linear-gradient(top, #e5e9ed 5%, #c4d0dc 100%);
+    background: linear-gradient(to bottom, #e5e9ed 5%, #c4d0dc 100%);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    color: #001325;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1vh 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c4d0dc), color-stop(1, #e5e9ed));
+    background: -moz-linear-gradient(top, #c4d0dc 5%, #e5e9ed 100%);
+    background: -webkit-linear-gradient(top, #c4d0dc 5%, #e5e9ed 100%);
+    background: -o-linear-gradient(top, #c4d0dc 5%, #e5e9ed 100%);
+    background: -ms-linear-gradient(top, #c4d0dc 5%, #e5e9ed 100%);
+    background: linear-gradient(to bottom, #c4d0dc 5%, #e5e9ed 100%);
+    background-color: #c4d0dc;
+}
+
+.btn:active {
+    position: relative;
+    background: #8f98a1;
+    top: 1px;
+}
+
+.btn-top {
+    border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+}
+
+.btn-bottom {
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .btn-back button {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .hotel-photo img {
+        width: 100%;
+    }
+    .hotel-contact {
+        text-align: left;
+        font-size: 35px;
+    }
+    .btn{
+        width: 90%;
+        font-size: 40px;
+        padding: 4vh 30px;
+    }
+
+    .nav-bar{
+        height: 15vh;
+    }
+}
