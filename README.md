@@ -1,6 +1,6 @@
 ## Clone or download the project
 ## Test 1:
-Simply drag and drop the index.html file onto any web browser.
+Open index.html with any web browser.
 
 ## Test 2: 
 Install Serve with: 
